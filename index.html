@@ -7,9 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>password-check-app</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <h1>Password Check</h1>
+    </header>
+    <main>
+        <div id="password-inputs">
+            <input type="password" id="first-password">
+            <input type="password" id="second-password">
+            <button id="show-hide">Show Passwords</button>
+        </div>
+        <div id="controlling">
+            <p id="equal">Passwords are equal ❌</p>
+            <p id="lowerCase">Lower Case Letters ❌</p>
+            <p id="upperCase">Upper Case Letters ❌</p>
+            <p id="containsNumbers">Contains Numbers ❌</p>
+            <p id="minimumChars">At least 10 characters long ❌</p>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
 
