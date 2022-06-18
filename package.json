@@ -1,0 +1,16 @@
+{
+  "name": "checkpoint-web-apps-foundation",
+  "version": "1.0.0",
+  "description": "This repository builds a password check app with HTML, CSS and JavaScript.",
+  "scripts": {
+    "serve": "serve ./src",
+    "e2e": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.1.0",
+    "serve": "^13.0.2"
+  }
+}
